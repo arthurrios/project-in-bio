@@ -2,7 +2,7 @@ import { TRIAL_DAYS } from '@/app/lib/config'
 
 import { Button } from '../ui/button'
 
-export default function Pricing() {
+export function Pricing() {
   return (
     <div className="flex flex-col items-center gap-15 py-20">
       <div className="flex flex-col items-center gap-6">
