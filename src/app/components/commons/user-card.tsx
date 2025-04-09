@@ -7,7 +7,7 @@ export function UserCard() {
   const icons = [Github, Instagram, Linkedin, Twitter, Plus]
 
   return (
-    <div className="flex w-[348px] flex-col items-center gap-5 rounded-3xl border border-white/10 bg-[#121212] p-5 text-white">
+    <div className="flex flex-col items-center gap-5 rounded-3xl border border-white/10 bg-[#121212] p-5 text-white">
       <div className="size-48">
         <Image
           src="https://github.com/arthurrios.png"
@@ -38,7 +38,7 @@ export function UserCard() {
           ))}
         </div>
       </div>
-      <div className="flex h-[172px] w-full flex-col gap-3">
+      <div className="flex w-full flex-col gap-3">
         <div className="flex w-full flex-col items-center gap-3">
           <Button className="w-full">SaaS Template - Buy Now</Button>
           <button className="rounded-xl bg-[#1E1E1E] p-3 hover:bg-[#2E2E2E]">
